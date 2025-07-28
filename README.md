@@ -1,6 +1,6 @@
-# 🧠 Adobe India Hackathon 2025 – Round 1A: Structured Outline Extraction
+# Adobe India Hackathon 2025 – Round 1A: Structured Outline Extraction
 
-## 🚀 Problem Statement
+## Problem Statement
 **Challenge 1A** required us to extract a structured document outline from unstructured PDF files. This includes:
 
 - Extracting the **document title** from the largest font block.
@@ -10,7 +10,7 @@
 
 ---
 
-## 📁 Directory Structure
+## irectory Structure
 
 ```
 ├── app/
@@ -23,7 +23,7 @@
 
 ---
 
-## 🧠 Key Features
+## Key Features
 - Extracts clean document **titles** (even if spread across multiple lines).
 - Detects headings based on:
   - Font size
@@ -34,7 +34,7 @@
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Install required libraries:
 ```bash
@@ -53,7 +53,7 @@ Libraries used:
 
 Put your PDF files inside the `input/` folder.
 
-### ▶️ Step 2: Run the script
+### Step 2: Run the script
 
 ```bash
 python main.py
@@ -63,7 +63,7 @@ This will create a `.json` output for each PDF inside the `output/` folder.
 
 ---
 
-## 🐳 Run with Docker
+## Run with Docker
 
 ### Step 1: Build the Docker image
 ```bash
@@ -75,15 +75,15 @@ docker build -t round1a-extractor .
 docker run --rm -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output round1a-extractor
 ```
 
-✅ Your output will be saved in the `output/` folder.
+Your output will be saved in the `output/` folder.
 
 ---
 
-## 📤 Download / Submission Package
+## Download / Submission Package
 
 You can download this submission as a zip:
 
-📦 [Download Round 1A Submission](https://github.com/Anishhhh12/strugglers1-a)  
+[Download Round 1A Submission](https://github.com/Anishhhh12/strugglers1-a)  
 _(Replace with your actual GitHub zip link or release download)_
 
 ---
@@ -91,14 +91,14 @@ _(Replace with your actual GitHub zip link or release download)_
 
 ---
 
-## 👤 Author
+## Author
   **Strugglers**  
 
 Feel free to reach out for any doubts or improvements!
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Round 1A is **offline-compatible**.
 - No AI models are used for classification; rules are applied based on font metrics.

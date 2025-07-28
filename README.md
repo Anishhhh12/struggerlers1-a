@@ -83,8 +83,7 @@ Your output will be saved in the `output/` folder.
 
 You can download this submission as a zip:
 
-[Download Round 1A Submission](https://github.com/Anishhhh12/strugglers1-a)  
-_(Replace with your actual GitHub zip link or release download)_
+[Download Round 1A Submission](https://github.com/Anishhhh12/struggerlers1-a)  
 
 ---
 
